@@ -1,0 +1,486 @@
+[
+  {
+    "nctId": "NCT06758401",
+    "title": "Sigvotatug Vedotin plus Pembrolizumab in Advanced NSCLC",
+    "sponsor": "Pfizer",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Non-Small Cell Lung Cancer", "NSCLC"],
+    "interventions": ["Sigvotatug Vedotin", "Pembrolizumab"],
+    "summary": "Phase 3 study of sigvotatug vedotin combined with pembrolizumab in unresectable Stage IIIB/IIIC or metastatic Stage IV NSCLC.",
+    "locations": ["United States", "Global"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "18 years of age or older", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Pathologically confirmed Stage IIIB/IIIC or Stage IV NSCLC", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["nsclc", "non-small cell lung", "lung adenocarcinoma", "lung cancer"] },
+      { "id": "stage", "text": "Unresectable Stage IIIB/IIIC or metastatic Stage IV", "kind": "stage", "field": "stage", "op": "in", "value": ["IIIB", "IIIC", "IV"] },
+      { "id": "ecog", "text": "ECOG performance status 0–1", "kind": "ecog", "field": "ecog", "op": "lte", "value": 1 }
+    ],
+    "exclusion": [
+      { "id": "brain", "text": "Untreated or symptomatic CNS metastases", "kind": "flag", "field": "brainMets", "op": "eq", "value": true },
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: 18+; pathologically confirmed Stage IIIB/IIIC unresectable or Stage IV NSCLC; ECOG 0-1.\nExclusion: untreated/symptomatic CNS metastases; pregnancy."
+  },
+  {
+    "nctId": "NCT07222566",
+    "title": "PF-08634404 plus Pembrolizumab in Advanced NSCLC (Symbiotic-Lung-01)",
+    "sponsor": "Pfizer",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Advanced Non-Small Cell Lung Cancer", "NSCLC"],
+    "interventions": ["PF-08634404", "Pembrolizumab"],
+    "summary": "Phase 3 combination study of PF-08634404 with pembrolizumab and chemotherapy in locally advanced or metastatic NSCLC.",
+    "locations": ["United States", "Global"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "18 years of age or older at screening", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Locally advanced or metastatic squamous or non-squamous NSCLC", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["nsclc", "non-small cell lung", "lung adenocarcinoma", "squamous"] },
+      { "id": "stage", "text": "Stage IIIB/IIIC or Stage IV, not a candidate for complete resection", "kind": "stage", "field": "stage", "op": "in", "value": ["IIIB", "IIIC", "IV"] }
+    ],
+    "exclusion": [
+      { "id": "egfr", "text": "Known sensitizing EGFR mutation requiring TKI", "kind": "biomarker", "field": "EGFR", "op": "in", "value": ["exon19", "L858R", "mutant", "positive"] },
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: 18+; Stage IIIB/IIIC or IV NSCLC not resectable.\nExclusion: known sensitizing EGFR mutation; pregnancy."
+  },
+  {
+    "nctId": "NCT07765888",
+    "title": "Tilrekimig in Moderate-to-Severe Atopic Dermatitis",
+    "sponsor": "Pfizer",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Atopic Dermatitis"],
+    "interventions": ["Tilrekimig", "Placebo"],
+    "summary": "Randomized, double-blind Phase 3 combination study of tilrekimig with topical therapy in adolescents and adults with moderate-to-severe atopic dermatitis.",
+    "locations": ["United States"],
+    "therapeuticArea": "Immunology",
+    "inclusion": [
+      { "id": "age", "text": "12 years of age or older", "kind": "age", "field": "age", "op": "gte", "value": 12 },
+      { "id": "dx", "text": "Chronic atopic dermatitis for at least 12 months", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["atopic dermatitis", "atopic eczema", "eczema"] },
+      { "id": "fail", "text": "Inadequate response to medium-potency topical corticosteroids", "kind": "medication", "field": "medications", "op": "any", "value": ["topical corticosteroid", "tcs", "triamcinolone", "betamethasone", "mometasone"] }
+    ],
+    "exclusion": [
+      { "id": "inf", "text": "Significant infection history or active infection", "kind": "flag", "field": "activeInfection", "op": "eq", "value": true },
+      { "id": "auto", "text": "Clinically significant autoimmune disease", "kind": "flag", "field": "autoimmune", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: age ≥12; chronic AD ≥12 months; inadequate response to TCS.\nExclusion: active infection; significant autoimmune disease."
+  },
+  {
+    "nctId": "NCT05431088",
+    "title": "Osivelotor in Adult and Adolescent Sickle Cell Disease",
+    "sponsor": "Pfizer",
+    "phase": "Phase 2/3",
+    "status": "RECRUITING",
+    "conditions": ["Sickle Cell Disease"],
+    "interventions": ["Osivelotor"],
+    "summary": "Phase 2/3 randomized study of oral osivelotor in participants with sickle cell disease (HbSS / HbSβ0).",
+    "locations": ["United States", "Brazil", "United Kingdom"],
+    "therapeuticArea": "Hematology",
+    "inclusion": [
+      { "id": "age", "text": "12 years and older", "kind": "age", "field": "age", "op": "gte", "value": 12 },
+      { "id": "dx", "text": "SCD genotype HbSS or HbSβ0", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["sickle cell", "hbss", "scd"] },
+      { "id": "hb", "text": "Hemoglobin ≥5.5 and ≤10.5 g/dL", "kind": "lab", "field": "hb", "op": "between", "value": [5.5, 10.5] },
+      { "id": "voc", "text": "2 to 10 vaso-occlusive crises in the prior 12 months", "kind": "lab", "field": "voc", "op": "between", "value": [2, 10] }
+    ],
+    "exclusion": [
+      { "id": "tx", "text": "RBC transfusion within 90 days", "kind": "flag", "field": "recentTransfusion", "op": "eq", "value": true },
+      { "id": "preg", "text": "Pregnancy or breastfeeding", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: SCD HbSS/HbSβ0; Hb 5.5–10.5 g/dL; 2–10 VOCs/year.\nExclusion: recent transfusion; pregnancy."
+  },
+  {
+    "nctId": "NCT07595549",
+    "title": "Berobenatide (PF-08653944) in People With Overweight or Obesity",
+    "sponsor": "Pfizer",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Obesity", "Overweight"],
+    "interventions": ["PF-08653944", "Placebo"],
+    "summary": "Phase 3 study of berobenatide in adults with obesity, or overweight plus a weight-related comorbidity including T2D.",
+    "locations": ["United States"],
+    "therapeuticArea": "Metabolic",
+    "inclusion": [
+      { "id": "age", "text": "Aged ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "bmi", "text": "BMI ≥30, or BMI ≥27 with a weight-related comorbidity", "kind": "bmi", "field": "bmi", "op": "gte", "value": 27 },
+      { "id": "comorb", "text": "Obesity or overweight with hypertension, dyslipidemia, OSA, CVD, or T2D", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["obesity", "overweight", "type 2 diabetes", "t2d", "hypertension", "dyslipidemia"] }
+    ],
+    "exclusion": [
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true },
+      { "id": "t1d", "text": "Type 1 diabetes", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["type 1 diabetes", "t1d"] }
+    ],
+    "eligibilityRaw": "Inclusion: ≥18y; BMI ≥30 or ≥27 with comorbidity (T2D, HTN, dyslipidemia, OSA, CVD).\nExclusion: pregnancy; T1D."
+  },
+  {
+    "nctId": "NCT07146906",
+    "title": "Zigakibart in IgA Nephropathy",
+    "sponsor": "Novartis Pharmaceuticals",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "conditions": ["IgA Nephropathy", "IgAN"],
+    "interventions": ["Zigakibart"],
+    "summary": "Open-label multicenter study of zigakibart on histologic and circulating markers of kidney disease in adults with primary IgA nephropathy.",
+    "locations": ["United States", "Europe", "Asia"],
+    "therapeuticArea": "Nephrology",
+    "inclusion": [
+      { "id": "age", "text": "Adult patients", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Primary IgAN confirmed by kidney biopsy", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["iga nephropathy", "igan", "immunoglobulin a nephropathy"] },
+      { "id": "egfr", "text": "eGFR ≥45 mL/min/1.73 m²", "kind": "lab", "field": "egfr", "op": "gte", "value": 45 },
+      { "id": "upcr", "text": "Persistent proteinuria, UPCR ≥0.5 g/g", "kind": "lab", "field": "upcr", "op": "gte", "value": 0.5 },
+      { "id": "bmi", "text": "BMI ≤35.0 kg/m² and weight ≥45 kg", "kind": "bmi", "field": "bmi", "op": "lte", "value": 35 }
+    ],
+    "exclusion": [
+      { "id": "sec", "text": "Secondary IgAN or IgA vasculitis", "kind": "flag", "field": "secondaryIgA", "op": "eq", "value": true },
+      { "id": "bp", "text": "Average SBP >150 or DBP >90 at screening", "kind": "lab", "field": "sbp", "op": "gte", "value": 151 }
+    ],
+    "eligibilityRaw": "Inclusion: biopsy-proven primary IgAN; eGFR ≥45; UPCR ≥0.5; BMI ≤35.\nExclusion: secondary IgAN; uncontrolled hypertension."
+  },
+  {
+    "nctId": "NCT06470048",
+    "title": "Ianalumab in Diffuse Cutaneous Systemic Sclerosis",
+    "sponsor": "Novartis Pharmaceuticals",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "conditions": ["Diffuse Cutaneous Systemic Sclerosis"],
+    "interventions": ["Ianalumab", "Placebo"],
+    "summary": "Randomized, double-blind, placebo-controlled study of subcutaneous ianalumab in diffuse cutaneous systemic sclerosis.",
+    "locations": ["United States", "Global"],
+    "therapeuticArea": "Rheumatology",
+    "inclusion": [
+      { "id": "age", "text": "Age 18–70 years", "kind": "age", "field": "age", "op": "between", "value": [18, 70] },
+      { "id": "dx", "text": "dcSSc per ACR/EULAR 2013 and LeRoy subset", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["systemic sclerosis", "scleroderma", "dcssc", "diffuse cutaneous"] },
+      { "id": "mrss", "text": "mRSS 15–45 at screening", "kind": "lab", "field": "mrss", "op": "between", "value": [15, 45] },
+      { "id": "ab", "text": "Positive ATA, anti-RNAP3, or ANA ≥1:80", "kind": "biomarker", "field": "SScAb", "op": "in", "value": ["ATA", "SCL70", "RNAP3", "ANA"] }
+    ],
+    "exclusion": [
+      { "id": "fvc", "text": "FVC ≤50% predicted or DLCO ≤40% predicted", "kind": "lab", "field": "fvc", "op": "lte", "value": 50 },
+      { "id": "limited", "text": "Limited cutaneous SSc", "kind": "flag", "field": "limitedSsc", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: 18–70y; dcSSc; mRSS 15–45; ATA/RNAP3/ANA+.\nExclusion: FVC ≤50% or DLCO ≤40%; limited cutaneous disease."
+  },
+  {
+    "nctId": "NCT06824103",
+    "title": "Ruxolitinib in Corticosteroid-Refractory Chronic GVHD",
+    "sponsor": "Novartis Pharmaceuticals",
+    "phase": "Phase 4",
+    "status": "RECRUITING",
+    "conditions": ["Chronic Graft vs. Host Disease"],
+    "interventions": ["Ruxolitinib"],
+    "summary": "Single-arm study of ruxolitinib in participants aged 12+ with corticosteroid-refractory chronic GVHD after allogeneic stem cell transplant.",
+    "locations": ["China"],
+    "therapeuticArea": "Transplant",
+    "inclusion": [
+      { "id": "age", "text": "Aged 12 years or older", "kind": "age", "field": "age", "op": "gte", "value": 12 },
+      { "id": "dx", "text": "Moderate to severe chronic GVHD per NIH criteria", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["cgvhd", "chronic gvhd", "graft versus host", "graft-versus-host"] },
+      { "id": "steroid", "text": "Corticosteroid-refractory cGvHD", "kind": "medication", "field": "medications", "op": "any", "value": ["prednisone", "prednisolone", "methylprednisolone", "corticosteroid"] },
+      { "id": "ecog", "text": "ECOG 0–2", "kind": "ecog", "field": "ecog", "op": "lte", "value": 2 }
+    ],
+    "exclusion": [
+      { "id": "relapse", "text": "Relapsed primary malignancy after alloSCT", "kind": "flag", "field": "relapsedMalignancy", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: ≥12y; moderate/severe cGvHD; steroid-refractory; ECOG 0–2.\nExclusion: relapsed primary malignancy."
+  },
+  {
+    "nctId": "NCT04741997",
+    "title": "Neoadjuvant Encorafenib + Binimetinib in BRAF V600 Melanoma",
+    "sponsor": "H. Lee Moffitt Cancer Center",
+    "phase": "Early Phase 1",
+    "status": "RECRUITING",
+    "conditions": ["Melanoma Stage III", "Melanoma Stage IV", "BRAF V600 Mutation"],
+    "interventions": ["Encorafenib", "Binimetinib", "Nivolumab"],
+    "summary": "Randomized pilot of adjuvant therapy based on pathologic response after neoadjuvant encorafenib and binimetinib in advanced BRAF V600 melanoma.",
+    "locations": ["United States"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "Age ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Histologically confirmed melanoma", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["melanoma"] },
+      { "id": "braf", "text": "BRAF V600 mutation", "kind": "biomarker", "field": "BRAF", "op": "in", "value": ["V600", "V600E", "V600K", "positive", "mutant"] },
+      { "id": "stage", "text": "Stage IIIB/C/D or Stage IV", "kind": "stage", "field": "stage", "op": "in", "value": ["IIIB", "IIIC", "IIID", "IV"] },
+      { "id": "ecog", "text": "ECOG ≤2", "kind": "ecog", "field": "ecog", "op": "lte", "value": 2 }
+    ],
+    "exclusion": [
+      { "id": "brain", "text": "Uncontrolled or symptomatic brain metastases", "kind": "flag", "field": "brainMets", "op": "eq", "value": true },
+      { "id": "preg", "text": "Pregnancy or breastfeeding", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: ≥18y; melanoma with BRAF V600; Stage IIIB–IV; ECOG ≤2.\nExclusion: uncontrolled brain mets; pregnancy."
+  },
+  {
+    "nctId": "NCT06924320",
+    "title": "MET233 with MET097 in Obesity or Overweight with T2D",
+    "sponsor": "Pfizer",
+    "phase": "Phase 1/2",
+    "status": "RECRUITING",
+    "conditions": ["Obesity", "Type 2 Diabetes"],
+    "interventions": ["MET233", "MET097"],
+    "summary": "Combination study of MET233 and MET097 in adults with obesity or overweight, including cohorts with type 2 diabetes.",
+    "locations": ["United States"],
+    "therapeuticArea": "Metabolic",
+    "inclusion": [
+      { "id": "age", "text": "Adults 18 to 75 years", "kind": "age", "field": "age", "op": "between", "value": [18, 75] },
+      { "id": "bmi", "text": "BMI ≥27.0 kg/m²", "kind": "bmi", "field": "bmi", "op": "gte", "value": 27 },
+      { "id": "dx", "text": "Obesity or overweight, with or without T2D", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["obesity", "overweight", "type 2 diabetes", "t2d"] }
+    ],
+    "exclusion": [
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: 18–75y; BMI ≥27.\nExclusion: pregnancy."
+  },
+  {
+    "nctId": "NCT05113251",
+    "title": "Trastuzumab Deruxtecan in HER2-Positive Metastatic Breast Cancer",
+    "sponsor": "Daiichi Sankyo / AstraZeneca",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["HER2-Positive Breast Cancer", "Metastatic Breast Cancer"],
+    "interventions": ["Trastuzumab Deruxtecan"],
+    "summary": "Study of T-DXd in patients with unresectable or metastatic HER2-positive breast cancer after prior anti-HER2 therapy.",
+    "locations": ["United States", "EU"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Unresectable or metastatic HER2-positive breast cancer", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["breast cancer", "her2", "invasive ductal"] },
+      { "id": "her2", "text": "HER2-positive (IHC 3+ or ISH amplified)", "kind": "biomarker", "field": "HER2", "op": "in", "value": ["positive", "3+", "amplified", "ihc3"] },
+      { "id": "ecog", "text": "ECOG 0–1", "kind": "ecog", "field": "ecog", "op": "lte", "value": 1 }
+    ],
+    "exclusion": [
+      { "id": "ild", "text": "History of interstitial lung disease / pneumonitis requiring steroids", "kind": "flag", "field": "ild", "op": "eq", "value": true },
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: ≥18y; metastatic HER2+ breast cancer; ECOG 0–1.\nExclusion: ILD/pneumonitis; pregnancy."
+  },
+  {
+    "nctId": "NCT04862741",
+    "title": "Teclistamab in Relapsed or Refractory Multiple Myeloma",
+    "sponsor": "Janssen / IQVIA-supported sites",
+    "phase": "Phase 2",
+    "status": "RECRUITING",
+    "conditions": ["Multiple Myeloma"],
+    "interventions": ["Teclistamab"],
+    "summary": "BCMA×CD3 bispecific in patients with relapsed/refractory multiple myeloma after ≥3 prior lines including a PI, IMiD, and anti-CD38.",
+    "locations": ["United States"],
+    "therapeuticArea": "Hematology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Relapsed or refractory multiple myeloma", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["multiple myeloma", "plasma cell"] },
+      { "id": "lines", "text": "≥3 prior lines of therapy", "kind": "lab", "field": "priorLines", "op": "gte", "value": 3 },
+      { "id": "ecog", "text": "ECOG 0–2", "kind": "ecog", "field": "ecog", "op": "lte", "value": 2 }
+    ],
+    "exclusion": [
+      { "id": "cns", "text": "Active CNS involvement", "kind": "flag", "field": "brainMets", "op": "eq", "value": true },
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: RRMM; ≥3 prior lines; ECOG 0–2.\nExclusion: CNS disease; pregnancy."
+  },
+  {
+    "nctId": "NCT04519125",
+    "title": "Sacubitril/Valsartan in HFrEF with Residual Congestion",
+    "sponsor": "Novartis Pharmaceuticals",
+    "phase": "Phase 4",
+    "status": "RECRUITING",
+    "conditions": ["Heart Failure with Reduced Ejection Fraction"],
+    "interventions": ["Sacubitril/Valsartan"],
+    "summary": "Outcomes study of ARNI therapy in adults with symptomatic HFrEF and NT-proBNP elevation.",
+    "locations": ["United States", "EU"],
+    "therapeuticArea": "Cardiology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Symptomatic HFrEF (NYHA II–III)", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["heart failure", "hfref", "chf", "reduced ejection"] },
+      { "id": "ef", "text": "LVEF ≤40%", "kind": "lab", "field": "lvef", "op": "lte", "value": 40 },
+      { "id": "bnp", "text": "NT-proBNP ≥600 pg/mL", "kind": "lab", "field": "ntprobnp", "op": "gte", "value": 600 }
+    ],
+    "exclusion": [
+      { "id": "hypot", "text": "Symptomatic hypotension or SBP <100 mmHg", "kind": "lab", "field": "sbp", "op": "lte", "value": 99 },
+      { "id": "preg", "text": "Pregnancy", "kind": "flag", "field": "pregnant", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: HFrEF; LVEF ≤40%; NT-proBNP ≥600.\nExclusion: SBP <100; pregnancy."
+  },
+  {
+    "nctId": "NCT05271604",
+    "title": "Pembrolizumab plus Lenvatinib in MSI-H / dMMR Colorectal Cancer",
+    "sponsor": "Merck / IQVIA sites",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Colorectal Cancer", "MSI-H", "dMMR"],
+    "interventions": ["Pembrolizumab", "Lenvatinib"],
+    "summary": "Immunotherapy combination in unresectable or metastatic MSI-H/dMMR colorectal adenocarcinoma.",
+    "locations": ["United States"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Unresectable or metastatic colorectal adenocarcinoma", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["colorectal", "colon cancer", "crc", "rectal"] },
+      { "id": "msi", "text": "MSI-H or dMMR tumor", "kind": "biomarker", "field": "MSI", "op": "in", "value": ["MSI-H", "dMMR", "high", "deficient"] },
+      { "id": "ecog", "text": "ECOG 0–1", "kind": "ecog", "field": "ecog", "op": "lte", "value": 1 }
+    ],
+    "exclusion": [
+      { "id": "auto", "text": "Active autoimmune disease requiring systemic therapy", "kind": "flag", "field": "autoimmune", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: mCRC; MSI-H/dMMR; ECOG 0–1.\nExclusion: active autoimmune disease."
+  },
+  {
+    "nctId": "NCT04975178",
+    "title": "Olaparib Maintenance in BRCA-Mutated High-Grade Ovarian Cancer",
+    "sponsor": "AstraZeneca",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Ovarian Cancer", "BRCA1/2"],
+    "interventions": ["Olaparib"],
+    "summary": "PARP inhibitor maintenance after platinum response in BRCA1/2-mutated high-grade serous ovarian cancer.",
+    "locations": ["United States", "EU"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "High-grade serous ovarian / fallopian / primary peritoneal cancer", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["ovarian", "fallopian", "peritoneal", "high-grade serous"] },
+      { "id": "brca", "text": "Germline or somatic BRCA1/2 mutation", "kind": "biomarker", "field": "BRCA", "op": "in", "value": ["BRCA1", "BRCA2", "positive", "mutant", "pathogenic"] }
+    ],
+    "exclusion": [
+      { "id": "mds", "text": "MDS or AML", "kind": "flag", "field": "mds", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: HGS ovarian cancer; BRCA1/2 mutation.\nExclusion: MDS/AML."
+  },
+  {
+    "nctId": "NCT05644132",
+    "title": "Risankizumab in Moderately to Severely Active Crohn's Disease",
+    "sponsor": "AbbVie / IQVIA",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Crohn's Disease"],
+    "interventions": ["Risankizumab"],
+    "summary": "IL-23 inhibitor in adults with moderately to severely active Crohn's disease and inadequate response to conventional or biologic therapy.",
+    "locations": ["United States"],
+    "therapeuticArea": "Gastroenterology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Moderately to severely active Crohn's disease", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["crohn", "inflammatory bowel"] },
+      { "id": "cdai", "text": "CDAI ≥220", "kind": "lab", "field": "cdai", "op": "gte", "value": 220 }
+    ],
+    "exclusion": [
+      { "id": "abscess", "text": "Untreated abscess or active infection", "kind": "flag", "field": "activeInfection", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: Crohn's; CDAI ≥220.\nExclusion: untreated abscess / infection."
+  },
+  {
+    "nctId": "NCT04111510",
+    "title": "Resmetirom in Nonalcoholic Steatohepatitis with Fibrosis",
+    "sponsor": "Madrigal",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["NASH", "MASLD"],
+    "interventions": ["Resmetirom"],
+    "summary": "Thyroid hormone receptor-β agonist in adults with biopsy-confirmed NASH and fibrosis stage F2–F3.",
+    "locations": ["United States"],
+    "therapeuticArea": "Hepatology",
+    "inclusion": [
+      { "id": "age", "text": "Adults 18–80", "kind": "age", "field": "age", "op": "between", "value": [18, 80] },
+      { "id": "dx", "text": "Biopsy-confirmed NASH / MASH", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["nash", "mash", "nafld", "masld", "steatohepatitis"] },
+      { "id": "fib", "text": "Fibrosis stage F2 or F3", "kind": "lab", "field": "fibrosis", "op": "between", "value": [2, 3] }
+    ],
+    "exclusion": [
+      { "id": "cirr", "text": "Decompensated cirrhosis", "kind": "flag", "field": "cirrhosis", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: NASH F2–F3.\nExclusion: decompensated cirrhosis."
+  },
+  {
+    "nctId": "NCT03819127",
+    "title": "Osimertinib in EGFR-Mutant Stage IV NSCLC",
+    "sponsor": "AstraZeneca",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["EGFR-Mutant NSCLC"],
+    "interventions": ["Osimertinib"],
+    "summary": "Third-generation EGFR TKI in previously untreated metastatic NSCLC with EGFR exon 19 deletion or L858R.",
+    "locations": ["United States", "Global"],
+    "therapeuticArea": "Oncology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Metastatic NSCLC", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["nsclc", "non-small cell lung", "lung adenocarcinoma"] },
+      { "id": "egfr", "text": "EGFR exon 19 deletion or L858R", "kind": "biomarker", "field": "EGFR", "op": "in", "value": ["exon19", "L858R", "mutant", "positive"] },
+      { "id": "ecog", "text": "ECOG 0–1", "kind": "ecog", "field": "ecog", "op": "lte", "value": 1 }
+    ],
+    "exclusion": [
+      { "id": "t790", "text": "Prior EGFR TKI exposure in first-line setting for this protocol arm", "kind": "medication", "field": "medications", "op": "any", "value": ["osimertinib", "erlotinib", "gefitinib", "afatinib"] }
+    ],
+    "eligibilityRaw": "Inclusion: mNSCLC; EGFR exo19del/L858R; ECOG 0–1.\nExclusion: prior EGFR TKI (selected arm)."
+  },
+  {
+    "nctId": "NCT04460872",
+    "title": "Deucravacitinib in Moderate-to-Severe Plaque Psoriasis",
+    "sponsor": "Bristol Myers Squibb",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Plaque Psoriasis"],
+    "interventions": ["Deucravacitinib"],
+    "summary": "Oral TYK2 inhibitor in adults with moderate-to-severe plaque psoriasis who are candidates for systemic therapy.",
+    "locations": ["United States"],
+    "therapeuticArea": "Dermatology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Moderate-to-severe plaque psoriasis ≥6 months", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["psoriasis", "plaque psoriasis"] },
+      { "id": "pasi", "text": "PASI ≥12 and BSA ≥10%", "kind": "lab", "field": "pasi", "op": "gte", "value": 12 }
+    ],
+    "exclusion": [
+      { "id": "inf", "text": "Active infection including TB", "kind": "flag", "field": "activeInfection", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: plaque psoriasis; PASI ≥12.\nExclusion: active infection."
+  },
+  {
+    "nctId": "NCT05501886",
+    "title": "Acoramidis in Transthyretin Amyloid Cardiomyopathy",
+    "sponsor": "BridgeBio",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["ATTR-CM", "Transthyretin Amyloid Cardiomyopathy"],
+    "interventions": ["Acoramidis"],
+    "summary": "TTR stabilizer in wild-type or variant ATTR cardiomyopathy with echocardiographic wall thickness ≥12 mm.",
+    "locations": ["United States"],
+    "therapeuticArea": "Cardiology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "ATTR-CM (wild-type or variant)", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["attr", "amyloid", "transthyretin"] },
+      { "id": "wall", "text": "LV wall thickness ≥12 mm", "kind": "lab", "field": "lvwt", "op": "gte", "value": 12 }
+    ],
+    "exclusion": [
+      { "id": "al", "text": "Light-chain (AL) amyloidosis", "kind": "flag", "field": "alAmyloid", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: ATTR-CM; wall thickness ≥12 mm.\nExclusion: AL amyloidosis."
+  },
+  {
+    "nctId": "NCT03334617",
+    "title": "Venetoclax plus Obinutuzumab in Previously Untreated CLL",
+    "sponsor": "Genentech / Roche",
+    "phase": "Phase 3",
+    "status": "RECRUITING",
+    "conditions": ["Chronic Lymphocytic Leukemia"],
+    "interventions": ["Venetoclax", "Obinutuzumab"],
+    "summary": "Fixed-duration venetoclax-obinutuzumab in previously untreated CLL / SLL, including 17p-deleted disease.",
+    "locations": ["United States"],
+    "therapeuticArea": "Hematology",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "CLL or SLL requiring treatment per iwCLL", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["cll", "chronic lymphocytic", "sll"] }
+    ],
+    "exclusion": [
+      { "id": "rich", "text": "Richter transformation", "kind": "flag", "field": "richter", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: untreated CLL/SLL requiring therapy.\nExclusion: Richter transformation."
+  },
+  {
+    "nctId": "NCT06288100",
+    "title": "Flatiron-network EHR Matching Cohort: Solid Tumor Basket",
+    "sponsor": "Flatiron Health Research Network",
+    "phase": "Observational",
+    "status": "RECRUITING",
+    "conditions": ["Solid Tumors", "NSCLC", "Breast Cancer", "CRC", "Melanoma"],
+    "interventions": ["EHR-enabled matching"],
+    "summary": "Prospective observational protocol using unstructured oncology notes and structured EHR labs to pre-screen patients across a community oncology network.",
+    "locations": ["United States"],
+    "therapeuticArea": "Oncology RWD",
+    "inclusion": [
+      { "id": "age", "text": "Adults ≥18 years", "kind": "age", "field": "age", "op": "gte", "value": 18 },
+      { "id": "dx", "text": "Active solid tumor diagnosis in EHR", "kind": "diagnosis", "field": "diagnoses", "op": "any", "value": ["nsclc", "breast cancer", "melanoma", "colorectal", "prostate", "ovarian", "lung"] }
+    ],
+    "exclusion": [
+      { "id": "hospice", "text": "Hospice or comfort-care only", "kind": "flag", "field": "hospice", "op": "eq", "value": true }
+    ],
+    "eligibilityRaw": "Inclusion: adult solid tumor; network EHR record.\nExclusion: hospice."
+  }
+]

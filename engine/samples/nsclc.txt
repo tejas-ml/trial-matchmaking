@@ -1,0 +1,9 @@
+64-year-old woman, former smoker (18 pack-years), referred from community oncology.
+
+HPI: Progressive dyspnea and dry cough over 8 weeks. CT chest showed a 4.2 cm RUL mass with mediastinal adenopathy and two hepatic lesions. Biopsy: lung adenocarcinoma. Staging PET-CT and MRI brain: Stage IV (T3N2M1b). No brain metastases.
+
+Biomarkers: EGFR wild-type, ALK negative, ROS1 negative, BRAF negative. PD-L1 TPS 62%. ECOG PS 1.
+
+Labs: Hb 12.1 g/dL, creatinine 0.9, eGFR 78. Not pregnant. No active infection.
+
+Assessment: Newly diagnosed metastatic NSCLC, immunotherapy-eligible, no driver mutation.

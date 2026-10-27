@@ -1,0 +1,6 @@
+# Core engine is stdlib-only.
+# Optional production encoder:
+# sentence-transformers>=2.2.0
+# langchain>=0.2.0
+# pgvector>=0.2.5
+# psycopg[binary]>=3.1.0
